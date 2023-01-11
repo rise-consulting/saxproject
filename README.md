@@ -11,6 +11,7 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 ![GitHub](https://img.shields.io/github/license/rise-consulting/saxproject)
 ![PyPI](https://img.shields.io/pypi/v/saxproject.svg)
+[![CI](https://github.com/rise-consulting/saxproject/actions/workflows/ci.yml/badge.svg)](https://github.com/rise-consulting/saxproject/actions/workflows/ci.yml)
 
 </div>
 
@@ -27,15 +28,15 @@
 
 &#xa0;
 
-## 🎯 About ##
+## 🎯 About
 
-Eclectic is a Python web framework built for learning purposes and evolving for working on real projects.
+Saxproject is a Python web framework built for learning purposes and evolving for working on real projects.
 
 It's a WSGI framework and can be used with any WSGI application server such as [Gunicorn](https://gunicorn.org/).
 
 &#xa0;
 
-## ✨ Features ##
+## ✨ Features
 
 ✔️ WSGI compatibility\
 ✔️ Flask and Django style routing.\
@@ -48,7 +49,7 @@ It's a WSGI framework and can be used with any WSGI application server such as [
 
 &#xa0;
 
-## 🚀 Technologies ##
+## 🚀 Technologies
 
 The following tools were used in this project:
 
@@ -62,17 +63,17 @@ The following tools were used in this project:
 
 &#xa0;
 
-## 🏁 Installation ##
+## 🏁 Installation
 
 ```shell
-pip install eclectic
+pip install saxproject
 ```
+
 &#xa0;
 
-## 📝 License ##
+## 📝 License
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
 
 Made with ❤️ & ☕ by <a href="https://github.com/rise-consulting" target="_blank">Rise Consulting</a>
 
