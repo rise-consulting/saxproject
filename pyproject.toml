@@ -26,7 +26,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.semantic_release]
 version_variable = [
-    "src/saxproject/__init__.py:__version__"
+    "saxproject/__init__.py:__version__"
 ]
 version_toml = [
     "pyproject.toml:tool.poetry.version"
