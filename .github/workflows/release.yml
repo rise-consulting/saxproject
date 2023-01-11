@@ -26,6 +26,7 @@ jobs:
       - uses: Gr1N/setup-poetry@v8
       - name: Install dependencies
         run: poetry install
+
       - name: Run tests
         run: poetry run pytest
 
@@ -50,6 +51,7 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email 'action@github.com'
           poetry run semantic-release publish
+          poetry config pypi-token.pypi ${{secrets.PyPI_TOKEN}}
+          poetry publish
         env:
           GH_TOKEN: ${{secrets.GH_TOKEN}}
-          PyPI_TOKEN: ${{secrets.PyPI_TOKEN}}
