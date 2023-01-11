@@ -17,11 +17,11 @@
 <hr>
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0;
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-installation">Installation</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="#about">About</a> &#xa0; | &#xa0;
+  <a href="#features">Features</a> &#xa0; | &#xa0;
+  <a href="#technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#installation">Installation</a> &#xa0; | &#xa0;
+  <a href="#license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/max-bertinetti" target="_blank">Author</a>
 </p>
 
