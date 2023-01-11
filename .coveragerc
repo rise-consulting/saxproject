@@ -1,0 +1,2 @@
+[run]
+omit = tests/*,saxproject/__init__.py
