@@ -8,9 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: szenius/set-timezone@v1.0
-        with:
-          timezoneLinux: "Europe/Rome"
       - uses: actions/checkout@v3
       - name: Set up Python & Poetry
         uses: actions/setup-python@v4
@@ -20,4 +17,4 @@ jobs:
       - name: Install dependencies
         run: poetry install
       - name: Run tests
-        run: poetry run pytest --emoji --md=report.md --cov=.
+        run: poetry run pytest
