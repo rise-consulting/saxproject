@@ -45,7 +45,7 @@ It's a WSGI framework and can be used with any WSGI application server such as [
 ✔️ Static Files\
 ✔️ Middleware\
 ✔️ Test\
-✔️ ORM
+  ORM arriving soon
 
 &#xa0;
 
