@@ -19,8 +19,5 @@ jobs:
       - uses: Gr1N/setup-poetry@v8
       - name: Install dependencies
         run: poetry install
-      - uses: pavelzw/pytest-action@v2
-        with:
-          emoji: true
-          verbose: false
-          job-summary: true
+      - name: Run tests
+        run: poetry run pytest --emoji --md=report.md --cov=.
