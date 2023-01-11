@@ -27,15 +27,15 @@
 
 &#xa0;
 
-## 🎯 About ##
+## 🎯 About
 
-Eclectic is a Python web framework built for learning purposes and evolving for working on real projects.
+Saxproject is a Python web framework built for learning purposes and evolving for working on real projects.
 
 It's a WSGI framework and can be used with any WSGI application server such as [Gunicorn](https://gunicorn.org/).
 
 &#xa0;
 
-## ✨ Features ##
+## ✨ Features
 
 ✔️ WSGI compatibility\
 ✔️ Flask and Django style routing.\
@@ -48,7 +48,7 @@ It's a WSGI framework and can be used with any WSGI application server such as [
 
 &#xa0;
 
-## 🚀 Technologies ##
+## 🚀 Technologies
 
 The following tools were used in this project:
 
@@ -62,17 +62,17 @@ The following tools were used in this project:
 
 &#xa0;
 
-## 🏁 Installation ##
+## 🏁 Installation
 
 ```shell
-pip install eclectic
+pip install saxproject
 ```
+
 &#xa0;
 
-## 📝 License ##
+## 📝 License
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
 
 Made with ❤️ & ☕ by <a href="https://github.com/rise-consulting" target="_blank">Rise Consulting</a>
 
