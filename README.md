@@ -1,5 +1,5 @@
 <div align="center" id="top">
-  <img src=".github/sax.png" alt="Sax" height="100px"/>
+  <img src="https://github.com/rise-consulting/saxproject/blob/main/.github/sax.png" alt="Sax" height="100px"/>
 </div>
 
 <br />
@@ -45,7 +45,7 @@ It's a WSGI framework and can be used with any WSGI application server such as [
 ✔️ Static Files\
 ✔️ Middleware\
 ✔️ Test\
-  ORM arriving soon
+✔️ ORM arriving soon
 
 &#xa0;
 
