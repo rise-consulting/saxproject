@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.1 (2023-01-11)
+### Fix
+* Release on Pypi ([`32ee4ea`](https://github.com/rise-consulting/saxproject/commit/32ee4ea0e6cca44b3536032956863545f1854a72))
+
 ## v0.1.0 (2023-01-11)
 ### Feature
 * Release workflow ([`25d6c3f`](https://github.com/rise-consulting/saxproject/commit/25d6c3f3ee34115b35fa3e6e0591e330cbb884c4))
