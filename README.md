@@ -11,6 +11,7 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 ![GitHub](https://img.shields.io/github/license/rise-consulting/saxproject)
 ![PyPI](https://img.shields.io/pypi/v/saxproject.svg)
+[![CI](https://github.com/rise-consulting/saxproject/actions/workflows/ci.yml/badge.svg)](https://github.com/rise-consulting/saxproject/actions/workflows/ci.yml)
 
 </div>
 
