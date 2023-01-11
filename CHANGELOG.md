@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.0.1 (2023-01-11)
+### Fix
+* Version problems ([`331faf6`](https://github.com/rise-consulting/saxproject/commit/331faf63abaac6da85286e089a50fc8d6c0622a5))
+
 ## v0.1.3 (2023-01-11)
 ### Fix
 * Publish on Pypi ([`eb11462`](https://github.com/rise-consulting/saxproject/commit/eb114629c66e37495e5bf448eb457128b85372cd))
