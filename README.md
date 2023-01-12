@@ -8,11 +8,11 @@
 
 <div align="center">
 
-![PyPI](https://img.shields.io/pypi/v/saxproject.svg)
+[![PyPI](https://img.shields.io/pypi/v/saxproject.svg)](https://pypi.org/project/saxproject/)
 [![CI/CD](https://github.com/rise-consulting/saxproject/actions/workflows/release.yml/badge.svg)](https://github.com/rise-consulting/saxproject/actions/workflows/release.yml)
 [![Coverage Status](https://coveralls.io/repos/github/rise-consulting/saxproject/badge.svg)](https://coveralls.io/github/rise-consulting/saxproject)
 
-![GitHub](https://img.shields.io/github/license/rise-consulting/saxproject)
+[![GitHub](https://img.shields.io/github/license/rise-consulting/saxproject)](https://github.com/rise-consulting/saxproject/blob/main/LICENSE.md)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
 </div>
