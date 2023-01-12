@@ -31,8 +31,7 @@ version_variable = [
 version_toml = [
     "pyproject.toml:tool.poetry.version"
 ]
-version_source = "commit"
-major_on_zero = false
+version_source = "tag"
 branch = "main"
 upload_to_PyPI = true
 upload_to_release = true
