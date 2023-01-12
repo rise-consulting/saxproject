@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "saxproject"
-version = "1.1.0"
+version = "1.0.1"
 description = ""
 authors = ["Massimiliano Bertinetti <max-b@murena.io>"]
 maintainers = ["Massimiliano Bertinetti <max-b@murena.io>"]
