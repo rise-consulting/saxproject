@@ -33,7 +33,8 @@ jobs:
       - name: Coveralls GitHub Action
         uses: coverallsapp/github-action@1.1.3
         with:
-          github-token: ${{ secrets.GH_TOKEN }}
+          git-branch: main
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           path-to-lcov: lcov.info
 
 
@@ -56,6 +57,6 @@ jobs:
       - name: Python Semantic Release
         uses: relekang/python-semantic-release@master
         with:
-          github_token: ${{ secrets.GH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           repository_username: __token__
           repository_password: ${{ secrets.PyPI_TOKEN}}
