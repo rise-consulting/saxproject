@@ -1,5 +1,5 @@
 <div align="center" id="top">
-  <img src="https://github.com/rise-consulting/saxproject/blob/main/.github/sax.png" alt="Sax" height="100px"/>
+  <img src="https://github.com/rise-consulting/saxproject/blob/main/.github/sax.png?raw=true" alt="Sax" height="100px"/>
 </div>
 
 <br />
@@ -20,11 +20,11 @@
 <hr>
 
 <p align="center">
-  <a href="#about">About</a> &#xa0; | &#xa0;
-  <a href="#features">Features</a> &#xa0; | &#xa0;
-  <a href="#technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#installation">Installation</a> &#xa0; | &#xa0;
-  <a href="#license">License</a> &#xa0; | &#xa0;
+  <a href="#-about">About</a> &#xa0; | &#xa0;
+  <a href="#-features">Features</a> &#xa0; | &#xa0;
+  <a href="#-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#-installation">Installation</a> &#xa0; | &#xa0;
+  <a href="#-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/max-bertinetti" target="_blank">Author</a>
 </p>
 
@@ -75,7 +75,7 @@ pip install saxproject
 
 ## 📝 License
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under license from MIT. For more details, see the [LICENSE](https://github.com/rise-consulting/saxproject/blob/main/LICENSE.md) file.
 
 Made with ❤️ & ☕ by <a href="https://github.com/rise-consulting" target="_blank">Rise Consulting</a>
 
