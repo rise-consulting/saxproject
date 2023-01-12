@@ -3,7 +3,29 @@ name = "saxproject"
 version = "1.1.0"
 description = ""
 authors = ["Massimiliano Bertinetti <max-b@murena.io>"]
+maintainers = ["Massimiliano Bertinetti <max-b@murena.io>"]
 readme = "README.md"
+homepage = "https://rise-consulting.github.io/saxproject/"
+documentation = "https://rise-consulting.github.io/saxproject/"
+keywords = ["web framework", "WSGI"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Internet :: WWW/HTTP :: WSGI",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"

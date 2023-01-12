@@ -1,12 +1,16 @@
 <div align="center" id="top">
-  <img src="https://github.com/rise-consulting/saxproject/blob/main/.github/sax.png?raw=true" alt="Sax" height="100px"/>
+  <img src="https://raw.githubusercontent.com/rise-consulting/saxproject/main/.github/sax.png?raw=true" alt="Sax" height="100px"/>
 </div>
 
 <br />
 
-<h1 align="center">Python Web Framework built for real projects</h1>
-
 <div align="center">
+  <h1>Python Web Framework built for real projects</h1>
+  &#xa0;
+  
+  ## 📖 [Documentation](https://rise-consulting.github.io/saxproject) 📖
+
+  &#xa0;
 
 [![PyPI](https://img.shields.io/pypi/v/saxproject.svg)](https://pypi.org/project/saxproject/)
 [![CI/CD](https://github.com/rise-consulting/saxproject/actions/workflows/release.yml/badge.svg)](https://github.com/rise-consulting/saxproject/actions/workflows/release.yml)
