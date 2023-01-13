@@ -74,6 +74,10 @@ The following tools were used in this project:
 ```shell
 pip install saxproject
 ```
+or better using poetry
+```shell
+poetry add
+```
 
 &#xa0;
 

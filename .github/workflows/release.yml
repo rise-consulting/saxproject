@@ -2,8 +2,8 @@ name: CI/CD
 
 on:
   push:
-    branches:
-      - main
+    paths-ignore:
+      - 'docs/**'
 
 jobs:
   quality:
