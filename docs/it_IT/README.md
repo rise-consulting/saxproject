@@ -15,52 +15,45 @@ Saxproject è un framework web Python costruito per scopi di apprendimento e si 
 
 In questa documentazione puoi imparare come funziona il framework e come lo uso per il lavoro pratico quotidiano.
 
-### Crea il primo progetto
+&#xa0;
 
-Saxproject usa Python v3.10+. Io uso [Poetry](https://python-poetry.org/) per gestire le dipendenze e la pacchettizzazione, e [Visual Studio Code](https://code.visualstudio.com/) come editor.
+## ✨ Caratteristiche
 
-```shell
-poetry new hello_world
+✔️ Compatibile WSGI\
+✔️ Routing in stile Flask e Django\
+✔️ Response in Json / HTML / Text\
+✔️ Templates\
+✔️ File Statici\
+✔️ Middleware\
+✔️ Test\
+✔️ ORM con SQLite
 
-cd hello_world
+&#xa0;
 
-poetry add gunicorn
+## 🚀 Tecnologie
 
-poetry add saxproject
-```
+Invece di ripartire da zero, ho preferito salire sulle spalle dei giganti, usando questi software collaudati:
 
-Apri VSCode es.
+- [Parse](https://pypi.org/project/parse/)
+- [Jinja2](https://pypi.org/project/Jinja2/)
+- [Whitenoise](https://pypi.org/project/whitenoise/)
+- [WebOb](https://pypi.org/project/WebOb/)
+- [Pytest](https://pypi.org/project/pytest/)
+- [Requests](https://pypi.org/project/requests/)
+- [Requests-wsgi-adapter](https://pypi.org/project/requests-wsgi-adapter/)
 
-```shell
-code .
-```
+&#xa0;
 
-![visual studio code opened project](../start.png)
+## 🏛️ Impostazioni predefinite dogmatiche e cosa seguirà:
 
-Crea un file nella cartella **hello_world**, ad es. **app.py**:
+Questo framework nasce per risolvere i miei problemi e rispondere ai miei bisogni. Lo uso per creare siti Web completi in combinazione con [TailwindCSS](https://tailwindcss.com/) e [Htmx](https://htmx.org/) o per creare API, quindi tutti i progressi ruoteranno attorno a questo fulcro:
 
-```python
-# app.py
+* Template iniziale per le applicazioni
+    * Web con TailwindCSS and Htmx, Autenticazione e area di Admin con CRUD...
+    * API con Swagger, JWT Authentication, Rate limiting, Heatbit, Recoverer, Timeout...
 
-from saxproject.api import API
+Lo metto a disposizione di chiunque voglia studiarne il codice, usarlo così com'è o modificarlo e adattarlo ai propri scopi.
 
-app = API()
+MA, lo sviluppo di Saxproject continuerà a seguire le mie esigenze e quindi richieste di feature e PR verranno considerate solo secondo questi principi.
 
-@app.route("/")
-def hello(request, response):
-    response.text = "Hello, World!"
-```
-Ora apuoi eseguirlo:
-
-```shell
-poetry run gunicorn hello_world.app:app
-```
-Lascia perdere per il momento l'avvertimento circa la necessità di una directory static. Se vai sul tuo browser all'indirizzo  http://127.0.0.1:8000/ vedrai:
-
-![visual studio code opened project](../hello.png)
-
-<div align="center">
-
-## Ok, ora sei uno sviluppatore web!
-
-</div>
+Non mi aspetto che sia un approccio popolare o ben voluto nelle comunità, ma gli strumenti messi a disposizione grazie alla licenza permissiva e ai principi dell'Open Source permetteranno a chiunque di creare un fork e procedere a seconda delle proprie esigenze.
